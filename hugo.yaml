@@ -1,0 +1,78 @@
+baseURL: https://docs.boogon.com/
+title: 布公会客厅文档站
+theme: hextra
+
+enableRobotsTXT: true
+hasCJKLanguage: true
+
+defaultContentLanguage: zh
+languages:
+  zh:
+    languageName: 简体中文
+    weight: 1
+  en:
+    languageName: English
+    title: Boogon Reception Room Docs
+    weight: 2
+menu:
+  main:
+    - identifier: NOTICE
+      name: 会客厅公告
+      pageRef: /notice
+      weight: 1
+
+    - identifier: DOCS
+      name: 开发组文档
+      pageRef: /docs
+      weight: 2
+
+    - identifier: NEWS
+      name: 茶谈新闻
+      pageRef: news
+      weight: 3
+
+    - identifier: FRIENDS
+      name: 友情链接
+      pageRef: friends
+      weight: 4
+
+    - name: 搜索全站
+      weight: 5
+      params:
+        type: search
+      
+    - name: GitHub
+      weight: 6
+      url: "https://github.com/BoogonClothman/boogon-docs"
+      params:
+        icon: github
+
+params:
+  navbar:
+    logo:
+      path: images/logo.svg
+      dark: images/logo-dark.svg
+
+  theme:
+    # light | dark | system
+    default: system
+    displayToggle: true
+  
+  footer:
+    enable: true
+    displayCopyright: false
+    displayPoweredBy: true
+
+  # Display the last modification date
+  displayUpdatedDate: true
+  dateFormat: "January 2, 2006"
+
+outputs:
+  home: [html, llms]
+  page: [html]
+  section: [html, rss]
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true  # 允许渲染原始 HTML
