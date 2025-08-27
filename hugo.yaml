@@ -3,9 +3,11 @@ title: 布公会客厅文档站
 theme: hextra
 
 enableRobotsTXT: true
+
 hasCJKLanguage: true
 
 defaultContentLanguage: zh
+
 languages:
   zh:
     languageName: 简体中文
@@ -14,6 +16,7 @@ languages:
     languageName: English
     title: Boogon Reception Room Docs
     weight: 2
+
 menu:
   main:
     - identifier: NOTICE
@@ -76,3 +79,12 @@ markup:
   goldmark:
     renderer:
       unsafe: true  # 允许渲染原始 HTML
+
+module:
+  hugoVersion:
+    extended: true
+    min: "0.146.0"
+
+  workspace: hugo.work
+  imports:
+    - path: github.com/imfing/hextra
