@@ -1,6 +1,5 @@
 ---
 date: '2025-08-23T12:05:32+08:00'
-draft: true
 title: 'Boogon Reception Room Docs'
 layout: hextra-home
 ---

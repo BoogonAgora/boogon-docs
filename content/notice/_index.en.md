@@ -1,6 +1,5 @@
 ---
 date: '2025-08-23T21:09:26+08:00'
-draft: true
 title: 'Boogon Reception Room Notices'
 ---
 
