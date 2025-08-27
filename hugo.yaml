@@ -85,6 +85,8 @@ params:
       repoId: R_kgDOPivJuw
       category: Announcements
       categoryId: DIC_kwDOPivJu84Cupv1
+      mapping: pathname
+      lang: zh-CN
 
 outputs:
   home: [html, llms]
