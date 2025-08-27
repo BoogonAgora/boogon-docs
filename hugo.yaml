@@ -60,6 +60,12 @@ params:
     # light | dark | system
     default: system
     displayToggle: true
+
+  blog:
+    list:
+      displayTags: true
+  toc:
+    displayTags: true
   
   footer:
     enable: true
@@ -68,7 +74,17 @@ params:
 
   # Display the last modification date
   displayUpdatedDate: true
-  dateFormat: "January 2, 2006"
+  dateFormat: "2006年1月2日"
+
+  comments:
+    enable: false
+    type: giscus
+
+    giscus:
+      repo: BoogonReceptionRoom/boogon-docs
+      repoId: R_kgDOPivJuw
+      category: Announcements
+      categoryId: DIC_kwDOPivJu84Cupv1
 
 outputs:
   home: [html, llms]
