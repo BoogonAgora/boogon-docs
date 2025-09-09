@@ -86,6 +86,10 @@ params:
       categoryId: DIC_kwDOPivJu84Cupv1
       mapping: pathname
       lang: zh-CN
+  # math:
+  #   engine: katex
+  #   # katex:
+  #     # base: "https://cdn.jsdelivr.net/npm/katex@0.16.22/dist"
 
 outputs:
   home: [html, llms]
@@ -96,6 +100,12 @@ markup:
   goldmark:
     renderer:
       unsafe: true  # 允许渲染原始 HTML
+    extensions:
+      passthrough:
+        delimiters:
+          block: [['\[', '\]'], ["$$", "$$"]]
+          inline: [['\(', '\)']]
+        enable: true
 
 module:
   hugoVersion:
