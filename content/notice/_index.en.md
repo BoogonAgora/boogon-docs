@@ -1,5 +1,5 @@
 ---
-date: '2025-08-23T21:09:26+08:00'
+date: '2025-09-17T21:00:26+08:00'
 title: 'Boogon Reception Room Notices'
 ---
 
@@ -10,5 +10,7 @@ The following are displayed in chronological order according to different types 
 ### Normal Notices of B.R.R.
 
 ### Specific Notices of B.R.R.
+
+Specific: Account Permissions Statement by the Boogon Reception Room [20250917-SPC-1](./spc/20250917-spc-1/)
 
 ### Urgent Notices of B.R.R.
