@@ -1,6 +1,3 @@
-@import "./xcard.css";
-@import "./member.css";
-
 @layer theme {
   :root {
     --hx-default-font-family: "Cascadia Mono";
