@@ -1,0 +1,4 @@
+{{ $columns := .Get "columns" | default 3 }}
+<div class="members-container" style="--columns: {{ $columns }}">
+  {{ .Inner }}
+</div>

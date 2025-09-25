@@ -1,0 +1,35 @@
+{{ $url := .Get "url" }}
+{{ $image := .Get "image" }}
+{{ $name := .Get "name" }}
+{{ $role := .Get "role" }}
+{{ $content := .Inner | markdownify }}
+
+{{ if $url }}
+  <a href="{{ $url }}" class="member-card">
+{{ else }}
+  <div class="member-card">
+{{ end }}
+
+  {{ with $image }}
+    <div class="member-avatar">
+      <img src="{{ $image }}" alt="{{ $name }} Avatar" loading="lazy">
+    </div>
+  {{ end }}
+
+  <div class="member-info">
+    <h3>{{ $name }}</h3>
+    {{ with $role }}
+      <p class="member-role">{{ $role }}</p>
+    {{ end }}
+    {{ with $content }}
+      <div class="member-content">
+        {{ $content }}
+      </div>
+    {{ end }}
+  </div>
+
+{{ if $url }}
+  </a>
+{{ else }}
+  </div>
+{{ end }}

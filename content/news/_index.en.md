@@ -1,6 +1,6 @@
 ---
 date: '2025-08-27T12:54:00+08:00'
-title: 'News'
+title: 'Reception News'
 cascade:
   type: docs
 ---

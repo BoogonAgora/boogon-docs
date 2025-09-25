@@ -22,4 +22,11 @@ layout: wide
         image="https://pic.imgdb.cn/item/66e82ef7d9c307b7e97bc996.png"
         imageStyle="object-fit:cover; aspect-ratio:16/9;"
     >}}
+    {{< card
+        link="https://primusse.cn"
+        title="Not Qualified"
+        subtitle="Not Qualified"
+        image="https://primusse.cn"
+        imageStyle="object-fit:cover; aspect-ratio:16/9;"
+    >}}
 {{< /cards >}}

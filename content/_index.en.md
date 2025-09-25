@@ -17,7 +17,7 @@ layout: hextra-home
 </div>
 
 <div class="hx:mb-6">
-{{< hextra/hero-button text="Latest Notices" link="notice" >}}
+{{< hextra/hero-button text="Latest Notices" link="notice/spc/20250917-spc-1" >}}
 </div>
 
 <div class="hx:mt-6"></div>

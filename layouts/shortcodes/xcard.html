@@ -1,0 +1,27 @@
+{{ $url := .Get "url" }}
+{{ $image := .Get "image" }}
+{{ $alt := .Get "alt" | default "" }}
+{{ $aspect := .Get "aspect" | default "1/1" }}
+{{ $content := .Inner | markdownify }}
+
+{{ if $url }}
+  <a href="{{ $url }}" class="xcard">
+{{ else }}
+  <div class="xcard">
+{{ end }}
+
+  {{ with $image }}
+    <div class="xcard-image" style="--aspect-ratio: {{ $aspect }}">
+      <img src="{{ $image }}" alt="{{ $alt }}" loading="lazy">
+    </div>
+  {{ end }}
+
+  <div class="xcard-content">
+    {{ $content }}
+  </div>
+
+{{ if $url }}
+  </a>
+{{ else }}
+  </div>
+{{ end }}

@@ -24,29 +24,39 @@ menu:
       pageRef: /notice
       weight: 1
 
+    - identifier: NEWS
+      name: 会客厅新闻
+      pageRef: /news
+      weight: 2
+
     - identifier: DOCS
       name: 开发组文档
       pageRef: /docs
-      weight: 2
-
-    - identifier: NEWS
-      name: 茶谈新闻
-      pageRef: news
       weight: 3
+
+    - identifier: DISCUSS
+      name: 茶谈
+      pageRef: /tea
+      weight: 4
 
     - identifier: FRIENDS
       name: 友情链接
-      pageRef: friends
-      weight: 4
+      pageRef: /friends
+      weight: 5
+
+    - identifier: ABOUT
+      name: 关于本站
+      pageRef: /about
+      weight: 6
 
     - name: 搜索全站
-      weight: 5
+      weight: 7
       params:
         type: search
       
     - name: GitHub
-      weight: 6
-      url: "https://github.com/BoogonClothman/boogon-docs"
+      weight: 8
+      url: "https://github.com/BoogonReceptionRoom/boogon-docs"
       params:
         icon: github
 
