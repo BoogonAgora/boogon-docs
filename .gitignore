@@ -5,3 +5,8 @@ resources/
 
 # Editor
 .vscode/
+
+.gitignore
+
+# Rebuild
+*.bat

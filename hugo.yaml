@@ -21,22 +21,22 @@ menu:
   main:
     - identifier: NOTICE
       name: 会客厅公告
-      pageRef: /notice
+      pageRef: /notice/
       weight: 1
 
     - identifier: NEWS
       name: 会客厅新闻
-      pageRef: /news
+      pageRef: /news/
       weight: 2
 
     - identifier: DOCS
       name: 开发组文档
-      pageRef: /docs
+      pageRef: /docs/
       weight: 3
 
     - identifier: DISCUSS
       name: 茶谈
-      pageRef: /tea
+      pageRef: /tea/
       weight: 4
 
     - identifier: FRIENDS
@@ -46,7 +46,7 @@ menu:
 
     - identifier: ABOUT
       name: 关于本站
-      pageRef: /about
+      pageRef: /about/
       weight: 6
 
     - name: 搜索全站
