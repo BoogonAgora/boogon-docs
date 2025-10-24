@@ -15,21 +15,21 @@ layout: wide
     name="布公"
     role="布公会客厅现任主理人"
     image="/images/members/boogon.png"
-    url="./boogon"
+    url="/team/boogon"
 />}}
 
 {{< member
     name="Zyner"
     role="布公会客厅文档站主笔"
     image="/images/members/zyner.png"
-    url="./zyner"
+    url="/team/zyner"
 />}}
 
 {{< member
-    name="Brollo"
+    name="布洛洛"
     role="布公会客厅虚拟主播"
     image="/images/members/brollo.png"
-    url="./brollo"
+    url="/team/brollo"
 />}}
 
 {{< /members >}}

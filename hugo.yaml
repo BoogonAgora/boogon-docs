@@ -14,7 +14,7 @@ languages:
     weight: 1
   en:
     languageName: English
-    title: Boogon Reception Room Docs
+    title: Boogon Agora Docs
     weight: 2
 
 menu:
@@ -46,7 +46,7 @@ menu:
 
     - identifier: ABOUT
       name: 关于本站
-      pageRef: /about/
+      pageRef: /about
       weight: 6
 
     - name: 搜索全站
@@ -56,7 +56,7 @@ menu:
       
     - name: GitHub
       weight: 8
-      url: "https://github.com/BoogonReceptionRoom/boogon-docs"
+      url: "https://github.com/BoogonAgora/boogon-docs"
       params:
         icon: github
 
@@ -90,7 +90,7 @@ params:
     type: giscus
 
     giscus:
-      repo: BoogonReceptionRoom/boogon-docs
+      repo: BoogonAgora/boogon-docs
       repoId: R_kgDOPivJuw
       category: Announcements
       categoryId: DIC_kwDOPivJu84Cupv1
