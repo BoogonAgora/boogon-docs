@@ -24,8 +24,8 @@ layout: wide
     >}}
     {{< card
         link="https://primusse.cn"
-        title="待审核"
-        subtitle="待审核"
+        title="白玉京"
+        subtitle="Make it work, make it right."
         image="https://primusse.cn"
         imageStyle="object-fit:cover; aspect-ratio:16/9;"
     >}}

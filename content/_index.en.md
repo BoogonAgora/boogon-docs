@@ -1,12 +1,12 @@
 ---
 date: '2025-08-23T12:05:32+08:00'
-title: 'Boogon Reception Room Docs'
+title: 'Boogon Agora Docs'
 layout: hextra-home
 ---
 
 <div class="hx:mt-6 hx:mb-6">
 {{< hextra/hero-headline >}}
-  Boogon Reception Room Docs
+  Boogon Agora Docs
 {{< /hextra/hero-headline >}}
 </div>
 
@@ -24,8 +24,8 @@ layout: hextra-home
 
 {{< hextra/feature-grid >}}
   {{< hextra/feature-card
-    title="Notices of B.R.R"
-    subtitle="Official Announcements<br>Presenting the Latest from B.R.R"
+    title="Notices of Boogon Agora"
+    subtitle="Official Announcements<br>Presenting the Latest from Boogon Agora"
     class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
     image="images/hextra-doc.webp"
     imageClass="hx:top-[40%] hx:left-[24px] hx:w-[180%] hx:sm:w-[110%] hx:dark:opacity-80"

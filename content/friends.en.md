@@ -1,6 +1,6 @@
 ---
 title: Friend Links
-description: Friend Links Page of Boogon Reception Room
+description: Friend Links Page of Boogon Agora
 toc: false
 layout: wide
 ---
@@ -24,9 +24,9 @@ layout: wide
     >}}
     {{< card
         link="https://primusse.cn"
-        title="Not Qualified"
-        subtitle="Not Qualified"
-        image="https://primusse.cn"
+        title="Heaven Metropolis"
+        subtitle="Make it work, make it right."
+        image="https://primusse.cn/favicon.ico"
         imageStyle="object-fit:cover; aspect-ratio:16/9;"
     >}}
 {{< /cards >}}
