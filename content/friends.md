@@ -26,7 +26,7 @@ layout: wide
         link="https://primusse.cn"
         title="白玉京"
         subtitle="Make it work, make it right."
-        image="https://primusse.cn"
+        image="https://primusse.cn/favicon.ico"
         imageStyle="object-fit:cover; aspect-ratio:16/9;"
     >}}
 {{< /cards >}}
