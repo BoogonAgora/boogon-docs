@@ -7,10 +7,10 @@ The official documents issued by the Boogon Agora are called **Notices of Boogon
 
 The following are displayed in chronological order according to different types of notices.
 
-### Normal Notices
+## Normal Notices
 
-### Specific Notices of
+## Specific Notices of
 
 Specific: Account Permissions Statement by the Boogon Agora [20250917-SPC-1](./spc/20250917-spc-1/)
 
-### Urgent Notices of
+## Urgent Notices of
