@@ -6,7 +6,7 @@ layout: wide
 <div class="hx:mt-12"></div>
 
 <div class="hx:text-center">
-    在这里你可以了解会客厅中每一位出色的成员。
+    一朝与会，终生与共。
 </div>
 
 {{< members >}}
@@ -29,7 +29,21 @@ layout: wide
     name="布洛洛"
     role="布公会客厅虚拟主播"
     image="/images/members/brollo.png"
-    url="/team/brollo"
+    url="https://brollo.boogon.com"
+/>}}
+
+{{< member
+    name="inc1ude.IO"
+    role="【已离开】布公会客厅开发组成员"
+    image="/images/members/inc1udeIO.png"
+    url="/team/inc1udeio"
+/>}}
+
+{{< member
+    name="Return0"
+    role="【已离开】布公会客厅文档站主笔"
+    image="/images/members/Return0.png"
+    url="/team/return0"
 />}}
 
 {{< /members >}}

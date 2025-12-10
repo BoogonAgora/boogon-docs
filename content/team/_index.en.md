@@ -6,7 +6,7 @@ layout: wide
 <div class="hx:mt-12"></div>
 
 <div class="hx:text-center">
-    Here you can get to know the talented individuals who make up Boogon Agora.
+    Once in Agora, Always in Agora.
 </div>
 
 {{< members >}}
@@ -30,6 +30,20 @@ layout: wide
     role="AI VTuber of Boogon Agora"
     image="/images/members/brollo.png"
     url="./brollo"
+/>}}
+
+{{< member
+    name="inc1ude.IO"
+    role="[Left] Member of Boogon Agora Development"
+    image="/images/members/inc1udeIO.png"
+    url="/team/inc1udeio"
+/>}}
+
+{{< member
+    name="Return0"
+    role="[Left] Primary Author of Boogon Agora Docs"
+    image="/images/members/Return0.png"
+    url="/team/return0"
 />}}
 
 {{< /members >}}
