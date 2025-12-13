@@ -9,8 +9,10 @@ The following are displayed in chronological order according to different types 
 
 ## Normal Notices
 
-## Specific Notices of
+## Specific Notices
 
 Specific: Account Permissions Statement by the Boogon Agora [20250917-SPC-1](./spc/20250917-spc-1/)
 
-## Urgent Notices of
+Specific：Ban on the Use of Domestic LLM Services [20251213-SPC-2](./spc/20251213-SPC-2)
+
+## Urgent Notices
