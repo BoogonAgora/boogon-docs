@@ -5,4 +5,6 @@ cascade:
   type: docs
 ---
 
+* [\(Boogon\): Responsibility Exchange is Our Open-Source Attitude](./20251223)
+
 * [\(Zyner\)：Why Modern Systems Still Need to Solve the 2038 Problem](./20250924)
